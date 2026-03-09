@@ -24,7 +24,7 @@ describe("RecordCard", () => {
     expect(screen.getByText("Gas Station Fill-up")).toBeInTheDocument();
     expect(screen.getByText("fuel")).toBeInTheDocument();
     expect(screen.getByText("$50.00")).toBeInTheDocument();
-    expect(screen.getByText("50,000")).toBeInTheDocument();
+    expect(screen.getByText("50,000 mi")).toBeInTheDocument();
   });
 
   it("displays category icon for fuel", () => {

@@ -1,12 +1,12 @@
 "use client";
 
 import { Vehicle, Currency, DistanceUnit, VolumeUnit } from "@/types/database";
-import { VehicleCard } from "./vehicle-card";
-import { VehicleDialog } from "./vehicle-dialog";
+import { VehicleCard } from "../vehicle-card";
+import { VehicleDialog } from "../vehicle-dialog";
 import { deleteVehicle } from "@/lib/supabase/vehicle-actions";
 import { useState, useTransition, useCallback } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
-import { useVehicles } from "@/hooks/use-vehicles";
+import { useVehicles } from "@/hooks/useVehicles";
 import { getUserSettings } from "@/lib/supabase/settings-actions";
 import { useEffect } from "react";
 

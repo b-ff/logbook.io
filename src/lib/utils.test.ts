@@ -20,22 +20,22 @@ describe("Utils", () => {
 
   describe("formatDate", () => {
     it("formats ISO date string", () => {
-      expect(formatDate("2024-01-15")).toMatch(/Jan 15, 2024|January 15, 2024/);
+      expect(formatDate("2024-01-15")).toBe("01/15/2024");
     });
 
     it("formats date with time", () => {
-      expect(formatDate("2024-01-15T10:00:00Z")).toMatch(/Jan 15, 2024|January 15, 2024/);
+      expect(formatDate("2024-01-15T10:00:00Z")).toBe("01/15/2024");
     });
   });
 
   describe("formatMileage", () => {
     it("formats mileage with commas", () => {
-      expect(formatMileage(50000)).toBe("50,000");
-      expect(formatMileage(1000000)).toBe("1,000,000");
+      expect(formatMileage(50000)).toBe("50,000 mi");
+      expect(formatMileage(1000000)).toBe("1,000,000 mi");
     });
 
     it("handles small numbers", () => {
-      expect(formatMileage(100)).toBe("100");
+      expect(formatMileage(100)).toBe("100 mi");
     });
   });
 

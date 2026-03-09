@@ -76,7 +76,7 @@ export function ExpensesByCategory({ expensesByCategory }: ExpensesByCategoryPro
                 ))}
               </Pie>
               <Tooltip
-                formatter={(value: number | undefined) => formatCurrency(value || 0)}
+                formatter={(value) => formatCurrency(Number(value) || 0)}
               />
               <Legend />
             </PieChart>

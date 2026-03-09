@@ -26,7 +26,7 @@ describe("VehicleCard", () => {
 
     expect(screen.getByText("2024 BMW X5")).toBeInTheDocument();
     expect(screen.getByText("ABC-123")).toBeInTheDocument();
-    expect(screen.getByText("50,000")).toBeInTheDocument();
+    expect(screen.getByText("50,000 mi")).toBeInTheDocument();
   });
 
   it("displays edit and delete options when callbacks provided", async () => {

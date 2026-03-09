@@ -2,9 +2,9 @@
 
 import { Plus } from "lucide-react";
 import { useState, useEffect } from "react";
-import { RecordDialog } from "./record-dialog";
+import { RecordDialog } from "../record-dialog";
 import { cn } from "@/lib/utils";
-import { useVehicles } from "@/hooks/use-vehicles";
+import { useVehicles } from "@/hooks/useVehicles";
 import { getUserSettings } from "@/lib/supabase/settings-actions";
 
 export function QuickAddFAB() {

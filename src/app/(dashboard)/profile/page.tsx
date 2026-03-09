@@ -1,14 +1,14 @@
 import { getProfile } from "@/lib/supabase/profile-actions";
 import { getUserSettings } from "@/lib/supabase/settings-actions";
 import { signOut } from "@/lib/supabase/auth-actions";
-import { BottomNav } from "@/components/layout/bottom-nav";
-import { ThemeToggle } from "@/components/layout/theme-toggle";
+import { BottomNav } from "@/components/layout";
+import { ThemeToggle } from "@/components/layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { LogOut, User as UserIcon, Mail, Settings } from "lucide-react";
 import { redirect } from "next/navigation";
-import { AccountSettingsForm } from "@/components/settings/account-settings-form";
+import { AccountSettingsForm } from "@/components/settings";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default async function ProfilePage() {

@@ -21,7 +21,7 @@ const CATEGORY_ICONS: { [key: string]: string } = {
   event: "📝",
 };
 
-interface RecordCardProps {
+export interface RecordCardProps {
   record: RecordType;
   vehicle?: Vehicle;
   onEdit?: (record: RecordType) => void;

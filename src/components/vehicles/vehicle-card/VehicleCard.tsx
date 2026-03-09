@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 
-interface VehicleCardProps {
+export interface VehicleCardProps {
   vehicle: Vehicle;
   onEdit?: (vehicle: Vehicle) => void;
   onDelete?: (id: string) => void;

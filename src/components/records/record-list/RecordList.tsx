@@ -1,7 +1,7 @@
 "use client";
 
 import { Record, Vehicle } from "@/types/database";
-import { RecordCard } from "./record-card";
+import { RecordCard } from "../record-card";
 import { deleteRecord } from "@/lib/supabase/record-actions";
 import { useState, useTransition } from "react";
 import { Skeleton } from "@/components/ui/skeleton";

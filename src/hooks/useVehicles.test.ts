@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { renderHook, waitFor } from "@testing-library/react";
-import { useVehicles } from "@/hooks/use-vehicles";
+import { useVehicles } from "@/hooks/useVehicles";
 import type { Vehicle } from "@/types/database";
 
 const mockVehicles: Vehicle[] = [

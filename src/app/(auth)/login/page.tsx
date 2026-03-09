@@ -1,6 +1,6 @@
 import { getUser } from "@/lib/supabase/auth-actions";
 import { redirect } from "next/navigation";
-import { GoogleSignInButton } from "@/components/auth/google-signin-button";
+import { GoogleSignInButton } from "@/components/auth";
 import { Car } from "lucide-react";
 
 export default async function LoginPage() {

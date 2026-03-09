@@ -1,9 +1,9 @@
 import { getAnalytics } from "@/lib/supabase/analytics-actions";
-import { TotalExpensesCard } from "@/components/analytics/total-expenses-card";
-import { ExpensesByCategory } from "@/components/analytics/expenses-by-category";
-import { RecentRecords } from "@/components/analytics/recent-records";
-import { BottomNav } from "@/components/layout/bottom-nav";
-import { ThemeToggle } from "@/components/layout/theme-toggle";
+import { TotalExpensesCard } from "@/components/analytics";
+import { ExpensesByCategory } from "@/components/analytics";
+import { RecentRecords } from "@/components/analytics";
+import { BottomNav } from "@/components/layout";
+import { ThemeToggle } from "@/components/layout";
 import { Suspense } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
 

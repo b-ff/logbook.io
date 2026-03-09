@@ -1,8 +1,8 @@
-import { VehicleList } from "@/components/vehicles/vehicle-list";
-import { VehicleDialog } from "@/components/vehicles/vehicle-dialog";
-import { QuickAddFAB } from "@/components/records/quick-add-fab";
-import { BottomNav } from "@/components/layout/bottom-nav";
-import { ThemeToggle } from "@/components/layout/theme-toggle";
+import { VehicleList } from "@/components/vehicles";
+import { VehicleDialog } from "@/components/vehicles";
+import { QuickAddFAB } from "@/components/records";
+import { BottomNav } from "@/components/layout";
+import { ThemeToggle } from "@/components/layout";
 import { Suspense } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
 
