@@ -86,42 +86,8 @@
    ```
 
 7. **Open the app**
-   
+
    Navigate to [http://localhost:3000](http://localhost:3000)
-
-## 📁 Project Structure
-
-```
-logbook.io/
-├── src/
-│   ├── app/                      # Next.js App Router pages
-│   │   ├── (auth)/login/         # Login page (Google sign-in)
-│   │   ├── (dashboard)/          # Protected dashboard pages
-│   │   │   ├── cars/             # Vehicle management
-│   │   │   ├── analytics/        # Expense analytics
-│   │   │   └── profile/          # User profile & settings
-│   │   ├── auth/                 # Auth callback handler
-│   │   ├── layout.tsx            # Root layout
-│   │   └── page.tsx              # Entry point
-│   ├── components/
-│   │   ├── analytics/            # Analytics widgets & charts
-│   │   ├── auth/                 # Auth components
-│   │   ├── layout/               # Navigation, theme toggle
-│   │   ├── records/              # Expense record CRUD
-│   │   ├── settings/             # Account settings form
-│   │   ├── vehicles/             # Vehicle CRUD components
-│   │   └── ui/                   # shadcn/ui primitives
-│   ├── hooks/                    # Custom React hooks
-│   ├── lib/
-│   │   ├── supabase/             # Supabase client & server actions
-│   │   └── utils.ts              # Utility functions
-│   ├── tests/                    # Vitest test suites
-│   └── types/                    # TypeScript type definitions
-├── migrations/                   # Database migration scripts
-├── public/                       # Static assets
-├── supabase-schema.sql           # Main database schema
-└── package.json
-```
 
 ## 🗄️ Database Schema
 
